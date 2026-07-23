@@ -1,8 +1,26 @@
 aid: arrepath
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arrepath.png
 name: ArrePath
-description: 'ArrePath is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: biotech-therapeutics. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'ArrePath is an AI-driven pharmaceutical company based in Princeton, New Jersey, applying
+  machine learning to accelerate small-molecule drug discovery in infectious disease. Its platform treats
+  heterogeneous, small, and noisy bioactivity datasets as a modeling opportunity, enabling work on novel
+  chemical classes where conventional approaches struggle; a public-data oral bioavailability model lifted
+  a lead series from roughly 22% to 89% bioavailability. Lead programs include an oral LpxH inhibitor for
+  outpatient urinary tract infections (pre-IND targeted mid-2026) and antibacterial programs against
+  non-tuberculous mycobacterial (NTM) lung disease and tuberculosis, plus an early non-infectious discovery
+  effort. ArrePath is a portfolio company of Insight Partners. It publishes no public developer API,
+  documentation, or SDKs; this profile captures company identity and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/arrepath/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Biotech Therapeutics
+- Drug Discovery
+- Artificial Intelligence
+- Machine Learning
+- Infectious Disease
+- Antibacterials
+- Pharmaceuticals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arrepath-domain-security.yml
 - type: Website
   url: https://arrepath.com/
+- type: Blog
+  url: https://arrepath.com/news
+- type: Support
+  url: https://arrepath.com/contact-us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
