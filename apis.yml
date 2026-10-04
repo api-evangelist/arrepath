@@ -47,7 +47,7 @@ tags:
 - Biotech Therapeutics
 - Drug Discovery
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Infectious Disease
 - Antibacterials
 - Pharmaceuticals
@@ -60,6 +60,7 @@ tags_raw:
 - Infectious Disease
 - Antibacterials
 - Pharmaceuticals
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
